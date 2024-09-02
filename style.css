@@ -34,7 +34,7 @@ footer {
   bottom: 0;
   z-index: 100;
   color: #000000;
-  background: linear-gradient(#d3cccc, #a2040414, #04000041);
+  background: linear-gradient(#d3cccc, #141414d3, #de0909c4);
 }
 
 .modal {

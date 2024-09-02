@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup model Page</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Prabhakaran G</h1>
+      <h2>Web Developer</h2>
+    </header>
+    <main>
+      <div>
+        <h4>To know me below!!</h4>
+        <button onclick="showModal()" class="open-bt">CLICK....</button>
+      </div>
+      <div id="model1" class="modal-wrapper">
+        <div class="modal">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            reprehenderit omnis dolores minus numquam quam ipsa voluptatibus?
+            Pariatur, veritatis! Officia atque vero ducimus nobis possimus ex
+            libero modi iste suscipit!Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Sequi corporis aliquam voluptate quaerat soluta,
+            iure illum facilis modi rem nobis voluptatum molestiae. Incidunt,
+            quo quae dolorem expedita tempore ratione error. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Dolorem minus itaque optio,
+            modi cupiditate voluptatibus, illo nemo consequatur rerum unde,
+            nesciunt iure eum amet maiores nulla numquam. Accusamus, explicabo
+            ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Velit qui ea modi rerum blanditiis ab laudantium quod labore
+            dignissimos eius error, doloribus, ex cum id rem hic consequuntur
+            plactlorem lorem cumque!
+          </p>
+          <button onclick="closeModal()" class="close-bt">close</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h3>Created by Prabhakaran</h3>
+    </footer>
+    <script>
+      function showModal() {
+        document.getElementById("model1").style.display = "block";
+      }
+
+      function closeModal() {
+        document.getElementById("model1").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  background-image: url('img3.jpg');
+  background-size: cover;
+}
+
+header {
+  height: 17vh;
+  text-align: center;
+  color: aqua;
+  
+}
+
+main {
+  height: 70vh;
+  text-align: center;
+  color: rgb(20, 229, 13);
+}
+footer {
+  height: 9vh;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+
+.modal-wrapper {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  color: #000000;
+  background: linear-gradient(#d3cccc, #a2040414, #04000041);
+}
+
+.modal {
+  width: 50%;
+  margin: auto;
+  margin-top: 8rem;
+  background-color: rgb(235, 229, 229);
+  border: solid 2px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 0px 40px;
+}
+.open-bt {
+  background-color: #000;
+  border: 2px solid #0c2ad7;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.close-bt {
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  
+   top: 229px;
+  left: 321px; 
+}
